@@ -21,3 +21,9 @@ pytest-ui-bdd
 2.To run all positive test cases  ***Ex: python run_tests.py --browser chrome --tag positive***
 
 3.To run all negative test cases  ***Ex: python run_tests.py --browser chrome --tag negative***
+
+# Reports Location
+
+Reports will be available at '/html_reports/' folder
+Sample Report is here:
+![img_1.png](img_1.png)

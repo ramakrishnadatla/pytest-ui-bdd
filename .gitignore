@@ -1,0 +1,26 @@
+# Node artifact files
+dist/
+node_modules/
+target/
+
+# Compiled files
+*.py[cod]
+
+# Log files
+*.log
+
+# JetBrains IDE
+.idea/
+
+# mac os files
+.DS_Store
+
+# executables
+*.app
+*.exe
+*.war
+
+# backend files
+*.lock
+*.html
+*.png

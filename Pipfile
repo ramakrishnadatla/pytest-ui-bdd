@@ -1,11 +1,21 @@
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
-
-[dev-packages]
 
 [requires]
-python_version = "3.8"
+# please update this value with local python version
+python_version = "3.8.5"
+
+[dev-packages]
+[packages]
+configparser = "*"
+python-environ = "*"
+pipfile = "*"
+PyPOM = "*"
+pytest = "6.0.1"
+pytest-selenium = "*"
+pytest-base-url = "1.4.2"
+pytest-html = "3.1.1"
+requests= "*"
+webdriver-manager = "*"
+environ = "*"
+pytest-rerunfailures = '*'
+selenium = "4.4.3"
+pytest-bdd = "<=4.1.0"
